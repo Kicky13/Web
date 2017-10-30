@@ -183,4 +183,7 @@ class BookController extends Controller
         }
         $this->view->render('member/detail',$data);
     }
+    public function halo(){
+        echo 'Halo World';
+    }
 }
